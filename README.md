@@ -3,16 +3,25 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* Objects
+	Objects are variables than can group together different things
 	* Properties
+	Properties are the qualities or attributes of a thing.
 	* Methods
+	Methods are actions the thing can perform or be performed on the thing
 	* for in loop
+	The for in loop allows you to loop over the key/value pairs of objects
 	* dot notation vs bracket notation
+	Dot notation is where you access an object's properties or methods by prefacing the property or method with a period.
+	E.g. user.name or user.isAlive()
+	You should use dot notation 99% of the time.
+	Bracket notation allows you to dynamically allocate the porperty or method you want to access on an object.
+	E.g. user[property]=5 where property contains a string or user[action](), where action contains a string.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
-		
+DONE
 	* git status
 	* git add --all
 	* git status
@@ -20,9 +29,9 @@
 	* git push origin master
 
 3. Install dependencies using `npm install`.  Run tests using `npm test`.
-
+DONE
 4. Make the tests pass!
-
+DONE
 
 
 #### Congratulations on finishing Homework #3!
